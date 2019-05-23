@@ -1,6 +1,5 @@
 -module(day01a).
 -export([init/0, test/0]).
-%-include_lib("stdlib/include/assert.hrl").
 % c(day01a), l(day01a), day01a:init().
 assert(A, A) -> ok;
 assert(A, B) -> throw(lists:flatten(io_lib:format("~p is not equal to ~p", [A, B]))).
